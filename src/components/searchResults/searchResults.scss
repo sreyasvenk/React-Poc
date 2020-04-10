@@ -1,0 +1,15 @@
+
+
+.employee-image{
+    content: url("../../images/employee.png");
+    object-fit:contain;
+    width: 50px;
+    height: 50px;
+}
+.dropdown-text{
+    color:black
+}
+.dropdown-text:hover{
+  background-color: rgba($color: grey, $alpha: 1.0);
+  color: #ffffff;  
+}

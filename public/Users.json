@@ -1,0 +1,146 @@
+{
+    "userDetails":[{
+"username":"Arun",
+"password":"Arun123"
+},
+{
+    "username":"Ajay",
+    "password":"Ajay123"
+},
+{
+    "username":"Akaash",
+    "password":"Akaash123"
+},
+{
+    "username":"Ashok",
+  
+    "password":"Ashok123"
+}],
+"employeeDetails":[{
+"Name":"Arun",
+"Availability":"Available",
+"Designation":"Sales Consultant",
+"personalInformation":{
+    "Sex":"Male",
+    "Birthday":"September 29",
+    "City":"Birmingham"
+},
+"workInformation":{
+    "Department":"Sales",
+    "Supervisor":"Tommy Shelby",
+    "Office":"Birmingham"
+},
+"contactInformation":{
+"officeTel":"123456",
+"mobile":"123456",
+"email":"Arun@gmail.com" 
+}
+
+
+},{
+"Name":"Akaash",
+"Availability":"Not Available",
+"Designation":"Sales Consultant",
+"personalInformation":{
+    "Sex":"Male",
+    "Birthday":"September 29",
+    "City":"Birmingham"
+},
+"workInformation":{
+    "Department":"Sales",
+    "Supervisor":"Tommy Shelby",
+    "Office":"Birmingham"
+},
+"contactInformation":{
+"officeTel":"123456",
+"mobile":"123456",
+"email":"Akaash@gmail.com" 
+}
+
+
+},
+{
+    "Name":"Ashok",
+"Availability":"Available",
+"Designation":"Sales Consultant",
+"personalInformation":{
+    "Sex":"Male",
+    "Birthday":"September 29",
+    "City":"Birmingham"
+},
+"workInformation":{
+    "Department":"Engineering",
+    "Supervisor":"Tommy Shelby",
+    "Office":"Birmingham"
+},
+"contactInformation":{
+"officeTel":"123456",
+"mobile":"123456",
+"email":"Ashok@gmail.com" 
+}
+
+
+},{
+    "Name":"Ajay",
+"Availability":"Not Available",
+"Designation":"Sales Consultant",
+"personalInformation":{
+    "Sex":"Male",
+    "Birthday":"September 29",
+    "City":"Birmingham"
+},
+"workInformation":{
+    "Department":"Engineering",
+    "Supervisor":"Tommy Shelby",
+    "Office":"Birmingham"
+},
+"contactInformation":{
+"officeTel":"123456",
+"mobile":"123456",
+"email":"Ajay@gmail.com" 
+}
+    
+},{
+    "Name":"Martin",
+"Availability":"Available",
+"Designation":"Sales Consultant",
+"personalInformation":{
+    "Sex":"Male",
+    "Birthday":"September 29",
+    "City":"Birmingham"
+},
+"workInformation":{
+    "Department":"Consulting",
+    "Supervisor":"Tommy Shelby",
+    "Office":"Birmingham"
+},
+"contactInformation":{
+"officeTel":"123456",
+"mobile":"123456",
+"email":"Martin@gmail.com" 
+}
+
+
+},{
+    "Name":"Arthur",
+    "Availability":"Not Available",
+    "Designation":"Sales Consultant",
+    "personalInformation":{
+        "Sex":"Male",
+        "Birthday":"September 29",
+        "City":"Birmingham"
+    },
+    "workInformation":{
+        "Department":"Consulting",
+        "Supervisor":"Tommy Shelby",
+        "Office":"Birmingham"
+    },
+    "contactInformation":{
+    "officeTel":"123456",
+    "mobile":"123456",
+    "email":"Arthur@gmail.com" 
+    }
+    
+
+}]
+}
