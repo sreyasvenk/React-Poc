@@ -18,26 +18,30 @@ class Search extends Component {
     this.setState({[name]:value})
     
   }
+  handleSubmit=(event)=>{
+    event.preventDefault();
+    this.props.sendSearchCriteria(this.state);
+  }
   render() {
     
     return (
       <div className="row my-3 mx-3">
         <div className="row w-100">
           <div className="col-6">
-            <span className="text-muted label-font">Employee Directory</span>
+            <span className="text-light label-font">Employee Directory</span>
           </div>
         </div>
-        <form className="row py-4">
+        <form className="row py-4" onSubmit={this.handleSubmit}>
           <div className="col-3">
             <div className="form-group">
-              <label htmlFor="Name" className="text-muted">Name</label>
+              <label htmlFor="Name" className="text-light">Name</label>
               <input type="text" className="form-control" id="Name" name="Name" onChange={this.handleChange}></input>
 
             </div>
           </div>
           <div className="col-3">
             <div className="form-group">
-              <label htmlFor="Department" className="text-muted">Department</label>
+              <label htmlFor="Department" className="text-light">Department</label>
               <select value={this.state.Department} className="form-control" id="Department" name="Department" onChange={this.handleChange}>
                 <option value="All">All</option>  
                 <option value="Engineering">Engineering</option>
@@ -52,7 +56,7 @@ class Search extends Component {
           </div>
           <div className="col-3">
             <div className="form-group">
-              <label htmlFor="Availability" className='text-muted'>Availability</label>
+              <label htmlFor="Availability" className='text-light'>Availability</label>
               <select value={this.state.Availability} className="form-control" id="Availability" name="Availability" onChange={this.handleChange}>
                <option value="All">All</option> 
                <option value="Available">Available</option>
@@ -61,7 +65,7 @@ class Search extends Component {
             </div>
           </div>
           <div className="col-3 h-100 button-padding">
-          <input type="submit" className="btn btn-primary w-100 " value="Filter"></input>
+          <input type="button" className="btn btn-primary w-100 " value="Filter" onClick={this.handleSubmit}></input>
        </div>
         </form>
 

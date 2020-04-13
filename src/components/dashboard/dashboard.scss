@@ -1,8 +1,14 @@
 
 .component-dashboard{
-
-    position: absolute;
-    top: 10vh;
+     position: absolute;
+    top: 8vh;
     
+}
+.background-container{
+    background-image: linear-gradient(to right,#43C6AC,#191654);
+}
+.font-label{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 

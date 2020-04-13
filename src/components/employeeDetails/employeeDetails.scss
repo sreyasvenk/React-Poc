@@ -1,0 +1,46 @@
+
+
+.employee-image-details{
+    content: url("../../images/employee.png");
+    object-fit:contain;
+    width: 80px;
+    height: 80px;
+}
+.font-20{
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.font-15{
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.font-12{
+    font-size: 12px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.solid{
+    border:1px solid #bbbbbb;
+    width: 100%;
+}
+.font-14{
+    font-size: 14px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.facebook{
+    content: url('../../images/facebook.png');
+    height: 80%;
+}
+.twitter{
+    content: url('../../images/twitter.png');
+    height: 80%;
+}
+.skype{
+    content: url('../../images/skype.png');
+    height: 80%;
+}
+.linked-in{
+    content: url('../../images/linkedin.png');
+    height: 80%;
+    
+}

@@ -17,7 +17,7 @@
     "password":"Ashok123"
 }],
 "employeeDetails":[{
-"Name":"Arun",
+"Name":"Arun Kumar",
 "Availability":"Available",
 "Designation":"Sales Consultant",
 "personalInformation":{
@@ -38,7 +38,7 @@
 
 
 },{
-"Name":"Akaash",
+"Name":"Akaash Rahul",
 "Availability":"Not Available",
 "Designation":"Sales Consultant",
 "personalInformation":{
@@ -60,7 +60,7 @@
 
 },
 {
-    "Name":"Ashok",
+    "Name":"Ashok Sharma",
 "Availability":"Available",
 "Designation":"Sales Consultant",
 "personalInformation":{
@@ -81,7 +81,7 @@
 
 
 },{
-    "Name":"Ajay",
+    "Name":"Ajay John",
 "Availability":"Not Available",
 "Designation":"Sales Consultant",
 "personalInformation":{
@@ -101,7 +101,7 @@
 }
     
 },{
-    "Name":"Martin",
+    "Name":"Martin Johnson",
 "Availability":"Available",
 "Designation":"Sales Consultant",
 "personalInformation":{
@@ -122,7 +122,7 @@
 
 
 },{
-    "Name":"Arthur",
+    "Name":"Arthur Shelby",
     "Availability":"Not Available",
     "Designation":"Sales Consultant",
     "personalInformation":{

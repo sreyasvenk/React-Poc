@@ -10,13 +10,10 @@ export default class Header extends Component {
     render() {
       return (
           <Navbar bg="dark" fixed='top' >
-            <Navbar.Brand><Link to="/login"><span className="text-light">Employee Dashboard</span></Link></Navbar.Brand>
-            <Nav className="mr-auto">
-              <Nav.Link> <span className="text-light">Add Employee</span></Nav.Link>
-            </Nav>
-
-            <Nav>
-              <Nav.Link><Link to="/login">Sign Out</Link></Nav.Link>
+            <Navbar.Brand className="mr-auto"><Link to="/login"><span className="text-light">Employee Dashboard</span></Link></Navbar.Brand>
+            
+            <Nav >
+              <Link to="/login">Sign Out</Link>
             </Nav>
 
           </Navbar>

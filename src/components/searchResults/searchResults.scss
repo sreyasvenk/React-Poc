@@ -13,3 +13,18 @@
   background-color: rgba($color: grey, $alpha: 1.0);
   color: #ffffff;  
 }
+.cursor-pointer{
+  cursor: pointer;
+}
+.custom-placeholder{
+  background-image: url('../../images/search-icon.png');
+  background-repeat:no-repeat ;
+  background-position-y: center;
+  background-position-x:1rem;
+  text-indent: 2rem;
+}
+.custom-placeholder:focus{
+  background-image: none;
+
+}
+

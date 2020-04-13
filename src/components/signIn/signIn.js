@@ -101,7 +101,7 @@ export default class SignIn extends Component {
   render() {
     const { isFormValid, errors } = this.state
   return (
-      <div className="row d-flex margin-auto height-100  background-container p-3 position-relative">
+      <div className="row height-100 background-container p-3 position-relative">
         <form autoComplete="off" className="margin-auto bg-light sign-in-container p-4 position-relative" onSubmit={this.handleSubmit}>
           <div className="row">
             <div className="col-9 mx-0">
@@ -114,18 +114,18 @@ export default class SignIn extends Component {
           </div>
           <div className="row p-5 mt-5">
             <div className="col-12 form-group">
-              <label for="userName"><span className="text-muted label-font">Email or Username</span></label>
+              <label htmlFor="userName"><span className="text-muted label-font">Email or Username</span></label>
               <input type="text" className="display-as-line" name="userName" id='userName' onChange={this.handleChange} onBlur={this.handleBlur}></input>
-              {errors.userName.length > 0 && <span className="text-danger display-as-line">{errors.userName}</span>}
+              {errors.userName.length > 0 && <span className="text-danger">{errors.userName}</span>}
             </div>
             <div className="col-12 form-group">
-              <label for="passWord"><span className="text-muted label-font">Password</span></label>
+              <label htmlFor="passWord"><span className="text-muted label-font">Password</span></label>
               <input type="password" className="display-as-line" name="passWord" onBlur={this.handleBlur} onChange={this.handleChange} id="passWord"></input>
               {errors.passWord.length > 0 && <span className="text-danger">{errors.passWord}</span>}
             </div>
             <div className="col-6 pt-4">
 
-              <label for="signedIn" className="container">
+              <label htmlFor="signedIn" className="container">
                 <input type="checkbox" id="signedIn" name="signedIn"></input>
                 <span className="checkmark"></span>
                 <span className=" pl-3 text-muted stay-signed-in ">Stay Signed In ?</span></label>
